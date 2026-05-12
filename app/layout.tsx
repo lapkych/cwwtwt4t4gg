@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://the-cocaine.art',
     images: [
       {
-        url: 'https://cocaine.trade/🧪.svg',
+        url: '/icon.svg',
         alt: 'The Cocaine',
       },
     ],
@@ -31,19 +31,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: 'https://cocaine.trade/🧪.svg',
+        url: '/icon.svg',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: 'https://cocaine.trade/🧪.svg',
+        url: '/icon.svg',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: 'https://cocaine.trade/🧪.svg',
+        url: 'https://the-cocaine.art/icon.svg',
         type: 'image/svg+xml',
       },
     ],
-    apple: 'https://cocaine.trade/🧪.svg',
+    apple: 'https://the-cocaine.art/apple-icon.svg',
   }
 }
 
