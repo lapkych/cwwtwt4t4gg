@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import './globals.css'
+import './globals.css?v=444'
 
 const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: 'https://the-cocaine.art',
     images: [
       {
-        url: '/icon.svg',
+        url: '/icon.svg?v=444',
         alt: 'The Cocaine',
       },
     ],
@@ -31,19 +31,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon.svg',
+        url: '/icon.svg?v=444',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon.svg',
+        url: '/icon.svg?v=444',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: 'https://the-cocaine.art/icon.svg',
+        url: 'https://the-cocaine.art/icon.svg?v=444',
         type: 'image/svg+xml',
       },
     ],
-    apple: 'https://the-cocaine.art/apple-icon.svg',
+    apple: 'https://the-cocaine.art/apple-icon.svg?v=444',
   }
 }
 
