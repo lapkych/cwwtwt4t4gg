@@ -12,9 +12,9 @@ export default function ContactPage() {
       <main className="relative z-10 flex min-h-screen items-center justify-center px-4 py-10">
         <div className="w-full max-w-3xl rounded-[2rem] border border-white/10 bg-slate-900/95 p-8 shadow-xl shadow-black/40">
           <p className="text-xs uppercase tracking-[0.35em] text-slate-400">Stay in touch</p>
-          <h1 className="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">Привет, давай свяжемся.</h1>
+          <h1 className="mt-4 text-4xl font-semibold tracking-tight sm:text-5xl">Hi there, let’s connect.</h1>
           <p className="mt-4 max-w-2xl text-sm leading-7 text-slate-300 sm:text-base">
-            Быстро и понятно: телеграм-бот и официальные домены прямо под рукой.
+            Fast and simple: Telegram bot and official domains right at your fingertips.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
             <a
@@ -23,10 +23,10 @@ export default function ContactPage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-slate-950 transition hover:bg-slate-100"
             >
-              Написать в Telegram
+              Message on Telegram
             </a>
             <span className="inline-flex items-center justify-center rounded-full border border-white/10 bg-white/5 px-5 py-3 text-sm text-slate-300">
-              Бот онлайн
+              Bot online
             </span>
           </div>
         </div>
